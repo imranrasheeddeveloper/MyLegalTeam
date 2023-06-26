@@ -27,22 +27,49 @@ struct RedirectionHelper {
         let loginVC = storyBoard.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
         vc.navigationController?.pushViewController(loginVC, animated: true)
     }
+        static func CourtReminderVC(_ vc : UIViewController) {
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let loginVC = storyBoard.instantiateViewController(withIdentifier: "CourtReminderVC") as! CourtReminderVC
+            vc.navigationController?.pushViewController(loginVC, animated: true)
+    }
     
     static func redirectToSignup(_ vc : UIViewController){
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         let signupVC = storyBoard.instantiateViewController(withIdentifier: "SignupVC") as! SignupVC
         vc.navigationController?.pushViewController(signupVC, animated: true)
     }
+        static func redirectToFindYourVC(_ vc : UIViewController){
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let signupVC = storyBoard.instantiateViewController(withIdentifier: "FindYourVC") as! FindYourVC
+            vc.navigationController?.pushViewController(signupVC, animated: true)
+    }
+    static func redirectToOTPScreenVC(_ vc : UIViewController){
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let OTPScreenVC = storyBoard.instantiateViewController(withIdentifier: "OTPScreenVC") as! OTPScreenVC
+        vc.navigationController?.pushViewController(OTPScreenVC, animated: true)
+        
+    }
+    static func redirectToSignUpControlle(_ vc : UIViewController){
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let  SignUpController = storyBoard.instantiateViewController(withIdentifier: "SignUpController") as! SignUpController
+        vc.navigationController?.pushViewController( SignUpController, animated: true)
     
+    }
+        static func redirectToSignUpController(_ vc : UIViewController){
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            let  SignUpController = storyBoard.instantiateViewController(withIdentifier: "SignUpController") as! SignUpController
+            vc.navigationController?.pushViewController( SignUpController, animated: true)
+        
+    }
     static func redirectToForgotPasswordVC(_ vc : UIViewController){
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         let forgotPasswordVC = storyBoard.instantiateViewController(withIdentifier: "ForgotPasswordVC") as! ForgotPasswordVC
         vc.navigationController?.pushViewController(forgotPasswordVC, animated: true)
     }
     
-    static func redirectToResetPasswordVC(_ vc : UIViewController){
+    static func PasswordResetVC(_ vc : UIViewController){
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
-        let forgotPasswordVC = storyBoard.instantiateViewController(withIdentifier: "ResetPasswordVC") as! ResetPasswordVC
+        let forgotPasswordVC = storyBoard.instantiateViewController(withIdentifier: "PasswordResetVC") as! PasswordResetVC
         vc.navigationController?.pushViewController(forgotPasswordVC, animated: true)
     }
     static func redirectToEmail(_ vc : UIViewController){

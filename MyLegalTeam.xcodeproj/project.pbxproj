@@ -52,11 +52,41 @@
 		B9D392A829014741005A6FE3 /* LoadingReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D392A729014741005A6FE3 /* LoadingReusableView.swift */; };
 		B9D8798528C79B7F00B4B778 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D8798428C79B7F00B4B778 /* PageControl.swift */; };
 		F7199A26CE928CA63A3147AF /* Pods_MyLegalTeam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B3375C9D939123BE3FFFB5 /* Pods_MyLegalTeam.framework */; };
+		FA191D1A2A49963A00BCB7AE /* FAQVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA191D192A49963A00BCB7AE /* FAQVC.swift */; };
+		FA191D1F2A4998B000BCB7AE /* FAQCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA191D1D2A4998B000BCB7AE /* FAQCell.swift */; };
+		FA191D202A4998B000BCB7AE /* FAQCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA191D1E2A4998B000BCB7AE /* FAQCell.xib */; };
+		FA1E11272A37099B004ADB52 /* PlaceholderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E11262A37099B004ADB52 /* PlaceholderExtension.swift */; };
+		FA1E112A2A371167004ADB52 /* LogInAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E11292A371167004ADB52 /* LogInAccountVC.swift */; };
+		FA1E112D2A371916004ADB52 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E112C2A371916004ADB52 /* SignUpController.swift */; };
+		FA1E11312A37250E004ADB52 /* OTPScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E11302A37250E004ADB52 /* OTPScreenVC.swift */; };
+		FA23A7F02A41A9B6006E291B /* FindYourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23A7EF2A41A9B6006E291B /* FindYourVC.swift */; };
+		FA28308F2A39B6B600510462 /* CourtDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28308E2A39B6B600510462 /* CourtDateVC.swift */; };
+		FA284E442A31D2EB00CAC199 /* PasswordChangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA284E432A31D2EB00CAC199 /* PasswordChangeVC.swift */; };
+		FA284E492A31D56600CAC199 /* ProfileRegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA284E482A31D56600CAC199 /* ProfileRegistrationVC.swift */; };
+		FA284E4E2A31D59700CAC199 /* ProfileRegistrationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA284E4C2A31D59700CAC199 /* ProfileRegistrationCell.swift */; };
+		FA284E4F2A31D59700CAC199 /* ProfileRegistrationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA284E4D2A31D59700CAC199 /* ProfileRegistrationCell.xib */; };
 		FA39685B29DD7B7100C6A8AC /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39685A29DD7B7100C6A8AC /* ForgotPasswordVC.swift */; };
-		FA39685E29DD7BA800C6A8AC /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39685D29DD7BA800C6A8AC /* ResetPasswordVC.swift */; };
+		FA40CDC72A40491800982325 /* CourtReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA40CDC62A40491800982325 /* CourtReminderVC.swift */; };
+		FA40CDCB2A40494500982325 /* CourtReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA40CDC92A40494500982325 /* CourtReminderCell.swift */; };
+		FA40CDCC2A40494500982325 /* CourtReminderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA40CDCA2A40494500982325 /* CourtReminderCell.xib */; };
+		FA40CDCF2A40658000982325 /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA40CDCE2A40658000982325 /* ReminderVC.swift */; };
+		FA647F062A3C449400920385 /* SelectYourStatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA647F052A3C449400920385 /* SelectYourStatesVC.swift */; };
+		FA647F0B2A3C44C700920385 /* SelectYourStatesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA647F092A3C44C700920385 /* SelectYourStatesCell.swift */; };
+		FA647F0C2A3C44C700920385 /* SelectYourStatesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA647F0A2A3C44C700920385 /* SelectYourStatesCell.xib */; };
+		FA647F102A3C5E7D00920385 /* CourtDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA647F0F2A3C5E7D00920385 /* CourtDataVC.swift */; };
+		FA647F162A3C636200920385 /* NewTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA647F152A3C636200920385 /* NewTaskVC.swift */; };
+		FA7195212A4459BB006FBB17 /* OverLayePopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71951F2A4459BB006FBB17 /* OverLayePopVC.swift */; };
+		FA7195222A4459BB006FBB17 /* OverLayePopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7195202A4459BB006FBB17 /* OverLayePopVC.xib */; };
 		FA784F6F29E31F3900175889 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA784F6E29E31F3900175889 /* ChangePasswordVC.swift */; };
 		FA9F4F0A29E32AAA006CF61E /* AppNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F4F0929E32AAA006CF61E /* AppNotificationVC.swift */; };
-		FAF0BFEA29E0C09800CF5F51 /* VerificationCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF0BFE929E0C09800CF5F51 /* VerificationCodeVC.swift */; };
+		FAF2F6932A337DAB0072D2DD /* RequestSubmittedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6922A337DAB0072D2DD /* RequestSubmittedVC.swift */; };
+		FAF2F6972A337F2C0072D2DD /* SelectAmountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6962A337F2C0072D2DD /* SelectAmountVC.swift */; };
+		FAF2F69A2A3381FD0072D2DD /* LicenceVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6992A3381FD0072D2DD /* LicenceVerificationVC.swift */; };
+		FAF2F6A52A338A300072D2DD /* IdentificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6A42A338A300072D2DD /* IdentificationVC.swift */; };
+		FAF2F6A82A338AA80072D2DD /* PersonalinformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6A72A338AA80072D2DD /* PersonalinformationVC.swift */; };
+		FAF2F6AF2A3391600072D2DD /* PasswordResetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6AE2A3391600072D2DD /* PasswordResetVC.swift */; };
+		FAF2F6B22A3395BC0072D2DD /* TicketInformationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6B12A3395BC0072D2DD /* TicketInformationVC.swift */; };
+		FAF883122A4325F900CA7920 /* UIAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF883112A4325F900CA7920 /* UIAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,11 +143,41 @@
 		B9D392A729014741005A6FE3 /* LoadingReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingReusableView.swift; sourceTree = "<group>"; };
 		B9D8798428C79B7F00B4B778 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		C32A6A5417D534733C83A306 /* Pods-IamHere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IamHere.debug.xcconfig"; path = "Target Support Files/Pods-IamHere/Pods-IamHere.debug.xcconfig"; sourceTree = "<group>"; };
+		FA191D192A49963A00BCB7AE /* FAQVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQVC.swift; sourceTree = "<group>"; };
+		FA191D1D2A4998B000BCB7AE /* FAQCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQCell.swift; sourceTree = "<group>"; };
+		FA191D1E2A4998B000BCB7AE /* FAQCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FAQCell.xib; sourceTree = "<group>"; };
+		FA1E11262A37099B004ADB52 /* PlaceholderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderExtension.swift; sourceTree = "<group>"; };
+		FA1E11292A371167004ADB52 /* LogInAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInAccountVC.swift; sourceTree = "<group>"; };
+		FA1E112C2A371916004ADB52 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		FA1E11302A37250E004ADB52 /* OTPScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreenVC.swift; sourceTree = "<group>"; };
+		FA23A7EF2A41A9B6006E291B /* FindYourVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourVC.swift; sourceTree = "<group>"; };
+		FA28308E2A39B6B600510462 /* CourtDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtDateVC.swift; sourceTree = "<group>"; };
+		FA284E432A31D2EB00CAC199 /* PasswordChangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChangeVC.swift; sourceTree = "<group>"; };
+		FA284E482A31D56600CAC199 /* ProfileRegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRegistrationVC.swift; sourceTree = "<group>"; };
+		FA284E4C2A31D59700CAC199 /* ProfileRegistrationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRegistrationCell.swift; sourceTree = "<group>"; };
+		FA284E4D2A31D59700CAC199 /* ProfileRegistrationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileRegistrationCell.xib; sourceTree = "<group>"; };
 		FA39685A29DD7B7100C6A8AC /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
-		FA39685D29DD7BA800C6A8AC /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		FA40CDC62A40491800982325 /* CourtReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtReminderVC.swift; sourceTree = "<group>"; };
+		FA40CDC92A40494500982325 /* CourtReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtReminderCell.swift; sourceTree = "<group>"; };
+		FA40CDCA2A40494500982325 /* CourtReminderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourtReminderCell.xib; sourceTree = "<group>"; };
+		FA40CDCE2A40658000982325 /* ReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
+		FA647F052A3C449400920385 /* SelectYourStatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectYourStatesVC.swift; sourceTree = "<group>"; };
+		FA647F092A3C44C700920385 /* SelectYourStatesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectYourStatesCell.swift; sourceTree = "<group>"; };
+		FA647F0A2A3C44C700920385 /* SelectYourStatesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectYourStatesCell.xib; sourceTree = "<group>"; };
+		FA647F0F2A3C5E7D00920385 /* CourtDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtDataVC.swift; sourceTree = "<group>"; };
+		FA647F152A3C636200920385 /* NewTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskVC.swift; sourceTree = "<group>"; };
+		FA71951F2A4459BB006FBB17 /* OverLayePopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverLayePopVC.swift; sourceTree = "<group>"; };
+		FA7195202A4459BB006FBB17 /* OverLayePopVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverLayePopVC.xib; sourceTree = "<group>"; };
 		FA784F6E29E31F3900175889 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
 		FA9F4F0929E32AAA006CF61E /* AppNotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotificationVC.swift; sourceTree = "<group>"; };
-		FAF0BFE929E0C09800CF5F51 /* VerificationCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationCodeVC.swift; sourceTree = "<group>"; };
+		FAF2F6922A337DAB0072D2DD /* RequestSubmittedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSubmittedVC.swift; sourceTree = "<group>"; };
+		FAF2F6962A337F2C0072D2DD /* SelectAmountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAmountVC.swift; sourceTree = "<group>"; };
+		FAF2F6992A3381FD0072D2DD /* LicenceVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenceVerificationVC.swift; sourceTree = "<group>"; };
+		FAF2F6A42A338A300072D2DD /* IdentificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentificationVC.swift; sourceTree = "<group>"; };
+		FAF2F6A72A338AA80072D2DD /* PersonalinformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalinformationVC.swift; sourceTree = "<group>"; };
+		FAF2F6AE2A3391600072D2DD /* PasswordResetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetVC.swift; sourceTree = "<group>"; };
+		FAF2F6B12A3395BC0072D2DD /* TicketInformationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketInformationVC.swift; sourceTree = "<group>"; };
+		FAF883112A4325F900CA7920 /* UIAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +223,6 @@
 			isa = PBXGroup;
 			children = (
 				FA39685A29DD7B7100C6A8AC /* ForgotPasswordVC.swift */,
-				FA39685D29DD7BA800C6A8AC /* ResetPasswordVC.swift */,
 			);
 			path = ForgotPassword;
 			sourceTree = "<group>";
@@ -246,6 +305,8 @@
 				B92680D928C8C5F1003BF3ED /* UITapGestureRecognizer.swift */,
 				B938AA9128CDCF61009DCB87 /* UserDefaultsExtension.swift */,
 				B9CF07F72902E06000A20E11 /* DateExtension.swift */,
+				FA1E11262A37099B004ADB52 /* PlaceholderExtension.swift */,
+				FAF883112A4325F900CA7920 /* UIAlert.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -284,6 +345,14 @@
 		B900EB1028C7650D006E26D3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FA191D182A49958C00BCB7AE /* Profile */,
+				FA40CDD12A4078A500982325 /* NeedACourtDate */,
+				FA40CDBA2A40455200982325 /* CourtDateReminder */,
+				FA647F142A3C634200920385 /* NewTask */,
+				FA28308D2A39B69A00510462 /* Court Date */,
+				FAF2F6912A337D6B0072D2DD /* RequestSubmitted */,
+				FA284E472A31D53B00CAC199 /* ProfileRegistration */,
+				FA284E422A31D2B300CAC199 /* Password Change */,
 				FAF7DFD829E56F1300685A8B /* OTP Screen */,
 				FA784F6829E31ED000175889 /* Change Password */,
 				18CABBDB29DD8C8E00F689E1 /* ForgotPassword */,
@@ -298,6 +367,9 @@
 				B900EB4828C76DDF006E26D3 /* OnboardingVC.swift */,
 				B9B9A02F28C7B10E00B21BB3 /* LoginVC.swift */,
 				188275FE29DC3AD200485572 /* SignupVC.swift */,
+				FA1E11292A371167004ADB52 /* LogInAccountVC.swift */,
+				FA1E112C2A371916004ADB52 /* SignUpController.swift */,
+				FA23A7EF2A41A9B6006E291B /* FindYourVC.swift */,
 			);
 			path = "Login Signup";
 			sourceTree = "<group>";
@@ -363,6 +435,99 @@
 			path = IBDesignable;
 			sourceTree = "<group>";
 		};
+		FA191D182A49958C00BCB7AE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				FA191D192A49963A00BCB7AE /* FAQVC.swift */,
+				FA191D1D2A4998B000BCB7AE /* FAQCell.swift */,
+				FA191D1E2A4998B000BCB7AE /* FAQCell.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		FA28308D2A39B69A00510462 /* Court Date */ = {
+			isa = PBXGroup;
+			children = (
+				FA28308E2A39B6B600510462 /* CourtDateVC.swift */,
+			);
+			path = "Court Date";
+			sourceTree = "<group>";
+		};
+		FA284E422A31D2B300CAC199 /* Password Change */ = {
+			isa = PBXGroup;
+			children = (
+				FA284E432A31D2EB00CAC199 /* PasswordChangeVC.swift */,
+				FAF2F6AE2A3391600072D2DD /* PasswordResetVC.swift */,
+			);
+			path = "Password Change";
+			sourceTree = "<group>";
+		};
+		FA284E472A31D53B00CAC199 /* ProfileRegistration */ = {
+			isa = PBXGroup;
+			children = (
+				FA284E482A31D56600CAC199 /* ProfileRegistrationVC.swift */,
+				FA71951F2A4459BB006FBB17 /* OverLayePopVC.swift */,
+				FA7195202A4459BB006FBB17 /* OverLayePopVC.xib */,
+				FA284E4C2A31D59700CAC199 /* ProfileRegistrationCell.swift */,
+				FA284E4D2A31D59700CAC199 /* ProfileRegistrationCell.xib */,
+			);
+			path = ProfileRegistration;
+			sourceTree = "<group>";
+		};
+		FA40CDBA2A40455200982325 /* CourtDateReminder */ = {
+			isa = PBXGroup;
+			children = (
+				FA40CDC62A40491800982325 /* CourtReminderVC.swift */,
+				FA40CDC92A40494500982325 /* CourtReminderCell.swift */,
+				FA40CDCA2A40494500982325 /* CourtReminderCell.xib */,
+				FA40CDCE2A40658000982325 /* ReminderVC.swift */,
+			);
+			path = CourtDateReminder;
+			sourceTree = "<group>";
+		};
+		FA40CDD12A4078A500982325 /* NeedACourtDate */ = {
+			isa = PBXGroup;
+			children = (
+				FA647F032A3C444F00920385 /* SelectYourState */,
+				FA647F0E2A3C5E5400920385 /* CourtData */,
+			);
+			path = NeedACourtDate;
+			sourceTree = "<group>";
+		};
+		FA40CDF52A407D6E00982325 /* OverLayerPopUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OverLayerPopUp;
+			sourceTree = "<group>";
+		};
+		FA647F032A3C444F00920385 /* SelectYourState */ = {
+			isa = PBXGroup;
+			children = (
+				FA647F052A3C449400920385 /* SelectYourStatesVC.swift */,
+				FA647F092A3C44C700920385 /* SelectYourStatesCell.swift */,
+				FA647F0A2A3C44C700920385 /* SelectYourStatesCell.xib */,
+			);
+			path = SelectYourState;
+			sourceTree = "<group>";
+		};
+		FA647F0E2A3C5E5400920385 /* CourtData */ = {
+			isa = PBXGroup;
+			children = (
+				FA40CDF52A407D6E00982325 /* OverLayerPopUp */,
+				FA647F0F2A3C5E7D00920385 /* CourtDataVC.swift */,
+			);
+			path = CourtData;
+			sourceTree = "<group>";
+		};
+		FA647F142A3C634200920385 /* NewTask */ = {
+			isa = PBXGroup;
+			children = (
+				FA647F152A3C636200920385 /* NewTaskVC.swift */,
+			);
+			path = NewTask;
+			sourceTree = "<group>";
+		};
 		FA784F6829E31ED000175889 /* Change Password */ = {
 			isa = PBXGroup;
 			children = (
@@ -372,10 +537,23 @@
 			path = "Change Password";
 			sourceTree = "<group>";
 		};
+		FAF2F6912A337D6B0072D2DD /* RequestSubmitted */ = {
+			isa = PBXGroup;
+			children = (
+				FAF2F6922A337DAB0072D2DD /* RequestSubmittedVC.swift */,
+				FAF2F6962A337F2C0072D2DD /* SelectAmountVC.swift */,
+				FAF2F6992A3381FD0072D2DD /* LicenceVerificationVC.swift */,
+				FAF2F6A42A338A300072D2DD /* IdentificationVC.swift */,
+				FAF2F6A72A338AA80072D2DD /* PersonalinformationVC.swift */,
+				FAF2F6B12A3395BC0072D2DD /* TicketInformationVC.swift */,
+			);
+			path = RequestSubmitted;
+			sourceTree = "<group>";
+		};
 		FAF7DFD829E56F1300685A8B /* OTP Screen */ = {
 			isa = PBXGroup;
 			children = (
-				FAF0BFE929E0C09800CF5F51 /* VerificationCodeVC.swift */,
+				FA1E11302A37250E004ADB52 /* OTPScreenVC.swift */,
 			);
 			path = "OTP Screen";
 			sourceTree = "<group>";
@@ -440,19 +618,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA284E4F2A31D59700CAC199 /* ProfileRegistrationCell.xib in Resources */,
 				181FF92729D599A6002D1386 /* InriaSans-BoldItalic.ttf in Resources */,
 				181FF92529D599A6002D1386 /* InriaSans-Regular.ttf in Resources */,
 				B900EB4728C7651B006E26D3 /* GoogleService-Info.plist in Resources */,
+				FA191D202A4998B000BCB7AE /* FAQCell.xib in Resources */,
 				181FF92829D599A6002D1386 /* InriaSans-LightItalic.ttf in Resources */,
+				FA7195222A4459BB006FBB17 /* OverLayePopVC.xib in Resources */,
 				18CABBDA29DD8C4F00F689E1 /* Dashboard.storyboard in Resources */,
 				B900EB2928C7650D006E26D3 /* Main.storyboard in Resources */,
 				B900EB2828C7650D006E26D3 /* LaunchScreen.storyboard in Resources */,
 				181FF92A29D599A6002D1386 /* InriaSans-Italic.ttf in Resources */,
+				FA40CDCC2A40494500982325 /* CourtReminderCell.xib in Resources */,
 				181FF92629D599A6002D1386 /* InriaSans-Bold.ttf in Resources */,
 				181FF92929D599A6002D1386 /* OFL.txt in Resources */,
 				B900EB4528C7650D006E26D3 /* Assets.xcassets in Resources */,
 				B900EB4428C7650D006E26D3 /* Settings.bundle in Resources */,
 				181FF92429D599A6002D1386 /* InriaSans-Light.ttf in Resources */,
+				FA647F0C2A3C44C700920385 /* SelectYourStatesCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,41 +688,66 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA1E112A2A371167004ADB52 /* LogInAccountVC.swift in Sources */,
+				FA284E4E2A31D59700CAC199 /* ProfileRegistrationCell.swift in Sources */,
+				FAF2F69A2A3381FD0072D2DD /* LicenceVerificationVC.swift in Sources */,
+				FA191D1A2A49963A00BCB7AE /* FAQVC.swift in Sources */,
 				B900EB4E28C76F41006E26D3 /* OnboardingCollectionViewCell.swift in Sources */,
+				FA647F162A3C636200920385 /* NewTaskVC.swift in Sources */,
+				FA1E11272A37099B004ADB52 /* PlaceholderExtension.swift in Sources */,
 				B9B5F5E62913CC9B00E38052 /* ImagePicker.swift in Sources */,
-				FAF0BFEA29E0C09800CF5F51 /* VerificationCodeVC.swift in Sources */,
 				B900EB2E28C7650D006E26D3 /* UIColorExtention.swift in Sources */,
 				B9CF07F82902E06000A20E11 /* DateExtension.swift in Sources */,
+				FA1E11312A37250E004ADB52 /* OTPScreenVC.swift in Sources */,
+				FA40CDCF2A40658000982325 /* ReminderVC.swift in Sources */,
+				FA23A7F02A41A9B6006E291B /* FindYourVC.swift in Sources */,
 				B900EB3228C7650D006E26D3 /* Strings.swift in Sources */,
+				FA7195212A4459BB006FBB17 /* OverLayePopVC.swift in Sources */,
 				FA784F6F29E31F3900175889 /* ChangePasswordVC.swift in Sources */,
+				FA1E112D2A371916004ADB52 /* SignUpController.swift in Sources */,
 				B938AA9228CDCF61009DCB87 /* UserDefaultsExtension.swift in Sources */,
+				FA40CDCB2A40494500982325 /* CourtReminderCell.swift in Sources */,
 				188275FF29DC3AD200485572 /* SignupVC.swift in Sources */,
 				B9B5F5EA2914185E00E38052 /* LottieAnimation.swift in Sources */,
+				FA647F062A3C449400920385 /* SelectYourStatesVC.swift in Sources */,
 				B9B9A03028C7B10E00B21BB3 /* LoginVC.swift in Sources */,
+				FA647F0B2A3C44C700920385 /* SelectYourStatesCell.swift in Sources */,
 				B900EB4228C7650D006E26D3 /* SceneDelegate.swift in Sources */,
 				B9D392A829014741005A6FE3 /* LoadingReusableView.swift in Sources */,
+				FAF883122A4325F900CA7920 /* UIAlert.swift in Sources */,
 				B90D15CB28CB5B990054613C /* APIService.swift in Sources */,
+				FAF2F6A52A338A300072D2DD /* IdentificationVC.swift in Sources */,
 				1882760129DC7D1200485572 /* SignupViewModel.swift in Sources */,
 				B9BB1977290189D000515B8D /* NotificationName.swift in Sources */,
 				FA39685B29DD7B7100C6A8AC /* ForgotPasswordVC.swift in Sources */,
 				B9D8798528C79B7F00B4B778 /* PageControl.swift in Sources */,
+				FA28308F2A39B6B600510462 /* CourtDateVC.swift in Sources */,
+				FAF2F6A82A338AA80072D2DD /* PersonalinformationVC.swift in Sources */,
+				FAF2F6972A337F2C0072D2DD /* SelectAmountVC.swift in Sources */,
+				FA284E442A31D2EB00CAC199 /* PasswordChangeVC.swift in Sources */,
 				B9B5F5E22913CA2500E38052 /* Data+Helpers.swift in Sources */,
+				FA40CDC72A40491800982325 /* CourtReminderVC.swift in Sources */,
 				B900EB2D28C7650D006E26D3 /* UIViewControllerExtention.swift in Sources */,
+				FA647F102A3C5E7D00920385 /* CourtDataVC.swift in Sources */,
 				B900EB3128C7650D006E26D3 /* ErrorViewModel.swift in Sources */,
 				B900EB3028C7650D006E26D3 /* StringExtention.swift in Sources */,
 				B900EB2C28C7650D006E26D3 /* Constants.swift in Sources */,
 				B900EB2F28C7650D006E26D3 /* UIButtonExtention.swift in Sources */,
 				B900EB3C28C7650D006E26D3 /* LoginViewModel.swift in Sources */,
 				B90D15CD28CB5CFC0054613C /* Endpoints.swift in Sources */,
+				FA284E492A31D56600CAC199 /* ProfileRegistrationVC.swift in Sources */,
 				B9B5F5E42913CA4500E38052 /* MultipartForm.swift in Sources */,
 				B9B5B56E28D083AC00B1D172 /* SetImage.swift in Sources */,
-				FA39685E29DD7BA800C6A8AC /* ResetPasswordVC.swift in Sources */,
 				B900EB3328C7650D006E26D3 /* RedirectionHelper.swift in Sources */,
+				FA191D1F2A4998B000BCB7AE /* FAQCell.swift in Sources */,
 				B900EB4928C76DDF006E26D3 /* OnboardingVC.swift in Sources */,
+				FAF2F6B22A3395BC0072D2DD /* TicketInformationVC.swift in Sources */,
 				B92680DA28C8C5F1003BF3ED /* UITapGestureRecognizer.swift in Sources */,
 				FA9F4F0A29E32AAA006CF61E /* AppNotificationVC.swift in Sources */,
+				FAF2F6AF2A3391600072D2DD /* PasswordResetVC.swift in Sources */,
 				B95B7F2A28C7F2B2004FB755 /* UITextfieldExtension.swift in Sources */,
 				B900EB4128C7650D006E26D3 /* AppDelegate.swift in Sources */,
+				FAF2F6932A337DAB0072D2DD /* RequestSubmittedVC.swift in Sources */,
 				B9B9A03228C7B39300B21BB3 /* UIViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

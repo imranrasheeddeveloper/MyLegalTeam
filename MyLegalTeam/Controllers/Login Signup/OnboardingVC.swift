@@ -9,7 +9,8 @@ import UIKit
 
 class OnboardingVC: UIViewController {
 
-    @IBOutlet weak var collectionView: UICollectionView!
+    static let identifier = String (describing: OnboardingCollectionViewCell.self)
+    @IBOutlet weak var collectionView : UICollectionView!
     @IBOutlet weak var nextBtn: UIButton!
     @IBOutlet weak var pageControl: UIPageControl!
     var slides: [OnboardingSlide] = []
@@ -24,18 +25,17 @@ class OnboardingVC: UIViewController {
             }
         }
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBar.isHidden = true
         nextBtn.configure(13)
-       
         
         slides = [
-            OnboardingSlide(title: "Manage Hatching", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nunc." , image: #imageLiteral(resourceName: "Intro-4")),
-            OnboardingSlide(title: "Manage Income/Expense", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nunc.", image: #imageLiteral(resourceName: "Intro-3")),
-            OnboardingSlide(title: "Sell Birds Products", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nunc.", image: #imageLiteral(resourceName: "Intro-4")),
-            OnboardingSlide(title: "Sell Birds Products", description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a nunc.", image: #imageLiteral(resourceName: "Intro-1"))
+            OnboardingSlide(title: "Tell us about your ticket", description: "add a photo and tell us some information about your case and we’ll give you an instant free quote" , image: #imageLiteral(resourceName: "Screen1")),
+            OnboardingSlide(title: "Get matched to a local attorney", description: "we’ll match you to an attorney with a great track record", image: #imageLiteral(resourceName: "Screen2")),
+            OnboardingSlide(title: "Get matched to a local attorney", description: "we’ll match you to an attorney with a great track record", image: #imageLiteral(resourceName: "Screen3")),
+            
         ]
         
         pageControl.numberOfPages = slides.count
@@ -43,7 +43,7 @@ class OnboardingVC: UIViewController {
     
     @IBAction func nextBtnClicked(_ sender: UIButton) {
         if currentPage == slides.count - 1 {
-            let controller = storyboard?.instantiateViewController(identifier: "LoginVC")
+            let controller = storyboard?.instantiateViewController(identifier: "TicketInformationVC")
             self.navigationController?.pushViewController(controller!, animated: true)
             //UserDefaults.standard.hasOnboarded = true
         } else {
@@ -52,7 +52,7 @@ class OnboardingVC: UIViewController {
             collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
         }
     }
-    
+
 }
 
 extension OnboardingVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {

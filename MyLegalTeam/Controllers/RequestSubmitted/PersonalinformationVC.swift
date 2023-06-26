@@ -9,21 +9,31 @@ import UIKit
 
 class PersonalinformationVC: UIViewController {
 
+    @IBOutlet weak var backBtn: UIButton!
+    @IBOutlet weak var firstNameTF: UITextField!
+    @IBOutlet weak var lastNameTF: UITextField!
+    @IBOutlet weak var emailTF: UITextField!
+    @IBOutlet weak var phoneTF: UITextField!
+    @IBOutlet weak var ssnTF: UITextField!
+    @IBOutlet weak var nextBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        firstNameTF.textfiledRoundview(13)
+        lastNameTF.textfiledRoundview(13)
+        emailTF.textfiledRoundview(13)
+        phoneTF.textfiledRoundview(13)
+        ssnTF.textfiledRoundview(13)
+        nextBtn.roundview(13)
+        ssnTF.enablePasswordToggle()
+        
 
-        // Do any additional setup after loading the view.
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func didClickBackBtn(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
     }
-    */
-
+    
+    @IBAction func nextBtnClick(_ sender: Any) {
+    }
 }

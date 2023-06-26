@@ -9,21 +9,26 @@ import UIKit
 
 class ReminderVC: UIViewController {
 
+    @IBOutlet weak var backBtn: UIButton!
+    @IBOutlet weak var switchController: UISwitch!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.isNavigationBarHidden = true
 
-        // Do any additional setup after loading the view.
+        switchController.isUserInteractionEnabled =  true
+        let tap = UITapGestureRecognizer(target: self, action: #selector(CourtReminderVC))
+        switchController.addGestureRecognizer(tap)
+               
+            }
+            @objc func CourtReminderVC(){
+                RedirectionHelper.CourtReminderVC(self)
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func didClickBackBtn(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
     }
-    */
+    
 
 }

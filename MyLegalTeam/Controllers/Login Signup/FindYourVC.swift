@@ -9,21 +9,39 @@ import UIKit
 
 class FindYourVC: UIViewController {
 
+    @IBOutlet weak var enterMobileNumberlbl: UILabel!
+    @IBOutlet weak var backBtn: UIButton!
+    @IBOutlet weak var emailTF: UITextField!
+    @IBOutlet weak var findBtn: UIButton!
+    @IBOutlet weak var mobilenmbrlbl: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        emailTF.textfiledRoundview(13)
+        findBtn.configure(13)
 
-        // Do any additional setup after loading the view.
+        
+        mobilenmbrlbl.isUserInteractionEnabled = true
+        let tap = UITapGestureRecognizer(target: self, action: #selector(setemail))
+        mobilenmbrlbl.addGestureRecognizer(tap)
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+  @objc func setemail(){
+    mobilenmbrlbl.text = "Search by email instead"
+    switch (emailTF.text?.isEmpty)! {
+    case (0 != 0):
+        enterMobileNumberlbl.text = "Enter your Phone Number"
+        emailTF.text = ""
+        emailTF.textColor = UIColor.lightGray
+        
+    case (1 != 0):
+        enterMobileNumberlbl.text = "Enter your Email Address"
+        emailTF.text = "example@gmail.com"
+        emailTF.textColor  = UIColor.lightGray
+    default:
+        break
     }
-    */
-
+}
+    @IBAction func didClickbackBtn(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
 }

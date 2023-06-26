@@ -159,7 +159,7 @@ extension KingfisherWrapper where Base: CPListItem {
             with: source,
             options: options,
             downloadTaskUpdated: { mutatingSelf.imageTask = $0 },
-            progressiveImageSetter: { self.base.setImage($0) },
+            progressiveImageSetter: { self.base.setImage($0!) },
             referenceTaskIdentifierChecker: { issuedIdentifier == self.taskIdentifier },
             completionHandler: { result in
                 CallbackQueue.mainCurrentOrAsync.execute {

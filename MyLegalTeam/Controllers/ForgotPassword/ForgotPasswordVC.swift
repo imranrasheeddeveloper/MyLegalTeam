@@ -28,6 +28,6 @@ class ForgotPasswordVC: UIViewController {
    
     
     @IBAction func didClickResetPassword(_ sender: UIButton) {
-        RedirectionHelper.redirectToResetPasswordVC(self)
+        RedirectionHelper.PasswordResetVC(self)
     }
 }
