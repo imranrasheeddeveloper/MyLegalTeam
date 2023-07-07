@@ -21,14 +21,8 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="keK-ah-KUy">
                         <rect key="frame" x="20" y="10" width="385" height="110"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Frequently Asked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9h-v1-sZh">
-                                <rect key="frame" x="20" y="10" width="156" height="23.5"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <color key="textColor" red="0.14509803921568626" green="0.15686274509803921" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="sm1-b4-ChQ">
-                                <rect key="frame" x="20" y="44" width="354" height="57"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="sm1-b4-ChQ">
+                                <rect key="frame" x="15" y="19" width="354" height="57"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do I create a Smartpay account?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c06-Ys-daQ">
                                         <rect key="frame" x="0.0" y="0.0" width="284.5" height="20.5"/>
@@ -46,18 +40,12 @@ open the smartpay application first then select ...</string>
                                     </label>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="View All" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yo3-zB-HWN">
-                                <rect key="frame" x="326" y="10" width="69" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Yo3-zB-HWN" firstAttribute="centerY" secondItem="d9h-v1-sZh" secondAttribute="centerY" id="AwQ-0S-NsP"/>
-                            <constraint firstItem="sm1-b4-ChQ" firstAttribute="top" secondItem="Yo3-zB-HWN" secondAttribute="bottom" constant="10" id="DuZ-nM-ebt"/>
-                            <constraint firstItem="Yo3-zB-HWN" firstAttribute="leading" secondItem="d9h-v1-sZh" secondAttribute="trailing" constant="150" id="ufh-L7-cp8"/>
+                            <constraint firstItem="sm1-b4-ChQ" firstAttribute="top" secondItem="keK-ah-KUy" secondAttribute="top" constant="19" id="RRc-er-KTj"/>
+                            <constraint firstItem="sm1-b4-ChQ" firstAttribute="leading" secondItem="keK-ah-KUy" secondAttribute="leading" constant="15" id="U8K-uw-FWx"/>
+                            <constraint firstAttribute="trailing" secondItem="sm1-b4-ChQ" secondAttribute="trailing" constant="16" id="kQa-5n-foz"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -71,9 +59,7 @@ open the smartpay application first then select ...</string>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="bgView" destination="keK-ah-KUy" id="61D-oo-lq9"/>
-                <outlet property="frequentlylbl" destination="d9h-v1-sZh" id="yRo-eo-tIA"/>
                 <outlet property="smartPayAccountlbl" destination="c06-Ys-daQ" id="72M-zL-gS1"/>
-                <outlet property="viewAlllbl" destination="Yo3-zB-HWN" id="fBh-Xx-f99"/>
                 <outlet property="youCanCreatelbl" destination="dRq-QR-RyW" id="vbN-VX-p3Z"/>
             </connections>
             <point key="canvasLocation" x="190.57971014492756" y="88.727678571428569"/>

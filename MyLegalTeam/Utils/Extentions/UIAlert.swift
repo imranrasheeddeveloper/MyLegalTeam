@@ -14,7 +14,4 @@ extension UIAlertAction{
 //        self.addImage(image:)
         
     }
-    
-    
-    
 }

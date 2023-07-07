@@ -36,6 +36,9 @@ class SignUpController: UIViewController {
         self.navigationController?.popViewController(animated: true)
     }
     
+    @IBAction func didClickHomeBtn(_ sender: Any) {
+        RedirectionHelper.redirectToHome()
+    }
     func uiView()   {
         firstNameTF.textfiledRoundview(13)
         lastNameTF.textfiledRoundview(13)

@@ -64,9 +64,3 @@ extension ProfileRegistrationVC : UITableViewDelegate,UITableViewDataSource{
         return 100
     }
 
-extension UITableView {
-    func removeExtraCellLines() {
-        tableFooterView = UIView(frame: .zero)
-    }
-    
-}

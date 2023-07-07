@@ -59,6 +59,13 @@
 		FA1E112A2A371167004ADB52 /* LogInAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E11292A371167004ADB52 /* LogInAccountVC.swift */; };
 		FA1E112D2A371916004ADB52 /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E112C2A371916004ADB52 /* SignUpController.swift */; };
 		FA1E11312A37250E004ADB52 /* OTPScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1E11302A37250E004ADB52 /* OTPScreenVC.swift */; };
+		FA2092C62A5414FD001A67C3 /* EditAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2092C52A5414FD001A67C3 /* EditAccountVC.swift */; };
+		FA2092CA2A541BAE001A67C3 /* TextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2092C92A541BAE001A67C3 /* TextFields.swift */; };
+		FA2092CE2A5435DA001A67C3 /* AccountInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2092CD2A5435DA001A67C3 /* AccountInfoVC.swift */; };
+		FA2092D32A5436BB001A67C3 /* AccountInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2092D12A5436BB001A67C3 /* AccountInfoCell.swift */; };
+		FA2092D42A5436BB001A67C3 /* AccountInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2092D22A5436BB001A67C3 /* AccountInfoCell.xib */; };
+		FA2092D82A54447E001A67C3 /* ContactInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2092D62A54447E001A67C3 /* ContactInfoCell.swift */; };
+		FA2092D92A54447E001A67C3 /* ContactInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2092D72A54447E001A67C3 /* ContactInfoCell.xib */; };
 		FA23A7F02A41A9B6006E291B /* FindYourVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA23A7EF2A41A9B6006E291B /* FindYourVC.swift */; };
 		FA28308F2A39B6B600510462 /* CourtDateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA28308E2A39B6B600510462 /* CourtDateVC.swift */; };
 		FA284E442A31D2EB00CAC199 /* PasswordChangeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA284E432A31D2EB00CAC199 /* PasswordChangeVC.swift */; };
@@ -75,10 +82,12 @@
 		FA647F0C2A3C44C700920385 /* SelectYourStatesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA647F0A2A3C44C700920385 /* SelectYourStatesCell.xib */; };
 		FA647F102A3C5E7D00920385 /* CourtDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA647F0F2A3C5E7D00920385 /* CourtDataVC.swift */; };
 		FA647F162A3C636200920385 /* NewTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA647F152A3C636200920385 /* NewTaskVC.swift */; };
-		FA7195212A4459BB006FBB17 /* OverLayePopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71951F2A4459BB006FBB17 /* OverLayePopVC.swift */; };
-		FA7195222A4459BB006FBB17 /* OverLayePopVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA7195202A4459BB006FBB17 /* OverLayePopVC.xib */; };
 		FA784F6F29E31F3900175889 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA784F6E29E31F3900175889 /* ChangePasswordVC.swift */; };
 		FA9F4F0A29E32AAA006CF61E /* AppNotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F4F0929E32AAA006CF61E /* AppNotificationVC.swift */; };
+		FAADAF402A4AE89E00531165 /* ExtraRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADAF3F2A4AE89E00531165 /* ExtraRow.swift */; };
+		FABF7FD62A52D08200ADDF21 /* GeneralSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABF7FD52A52D08200ADDF21 /* GeneralSettingVC.swift */; };
+		FABF7FDB2A52D0B300ADDF21 /* SettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABF7FD92A52D0B300ADDF21 /* SettingCell.swift */; };
+		FABF7FDC2A52D0B300ADDF21 /* SettingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABF7FDA2A52D0B300ADDF21 /* SettingCell.xib */; };
 		FAF2F6932A337DAB0072D2DD /* RequestSubmittedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6922A337DAB0072D2DD /* RequestSubmittedVC.swift */; };
 		FAF2F6972A337F2C0072D2DD /* SelectAmountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6962A337F2C0072D2DD /* SelectAmountVC.swift */; };
 		FAF2F69A2A3381FD0072D2DD /* LicenceVerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF2F6992A3381FD0072D2DD /* LicenceVerificationVC.swift */; };
@@ -150,6 +159,13 @@
 		FA1E11292A371167004ADB52 /* LogInAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInAccountVC.swift; sourceTree = "<group>"; };
 		FA1E112C2A371916004ADB52 /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 		FA1E11302A37250E004ADB52 /* OTPScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreenVC.swift; sourceTree = "<group>"; };
+		FA2092C52A5414FD001A67C3 /* EditAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountVC.swift; sourceTree = "<group>"; };
+		FA2092C92A541BAE001A67C3 /* TextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFields.swift; sourceTree = "<group>"; };
+		FA2092CD2A5435DA001A67C3 /* AccountInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoVC.swift; sourceTree = "<group>"; };
+		FA2092D12A5436BB001A67C3 /* AccountInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountInfoCell.swift; sourceTree = "<group>"; };
+		FA2092D22A5436BB001A67C3 /* AccountInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountInfoCell.xib; sourceTree = "<group>"; };
+		FA2092D62A54447E001A67C3 /* ContactInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoCell.swift; sourceTree = "<group>"; };
+		FA2092D72A54447E001A67C3 /* ContactInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactInfoCell.xib; sourceTree = "<group>"; };
 		FA23A7EF2A41A9B6006E291B /* FindYourVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindYourVC.swift; sourceTree = "<group>"; };
 		FA28308E2A39B6B600510462 /* CourtDateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtDateVC.swift; sourceTree = "<group>"; };
 		FA284E432A31D2EB00CAC199 /* PasswordChangeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordChangeVC.swift; sourceTree = "<group>"; };
@@ -166,10 +182,12 @@
 		FA647F0A2A3C44C700920385 /* SelectYourStatesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectYourStatesCell.xib; sourceTree = "<group>"; };
 		FA647F0F2A3C5E7D00920385 /* CourtDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourtDataVC.swift; sourceTree = "<group>"; };
 		FA647F152A3C636200920385 /* NewTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskVC.swift; sourceTree = "<group>"; };
-		FA71951F2A4459BB006FBB17 /* OverLayePopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverLayePopVC.swift; sourceTree = "<group>"; };
-		FA7195202A4459BB006FBB17 /* OverLayePopVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverLayePopVC.xib; sourceTree = "<group>"; };
 		FA784F6E29E31F3900175889 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
 		FA9F4F0929E32AAA006CF61E /* AppNotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotificationVC.swift; sourceTree = "<group>"; };
+		FAADAF3F2A4AE89E00531165 /* ExtraRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraRow.swift; sourceTree = "<group>"; };
+		FABF7FD52A52D08200ADDF21 /* GeneralSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingVC.swift; sourceTree = "<group>"; };
+		FABF7FD92A52D0B300ADDF21 /* SettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingCell.swift; sourceTree = "<group>"; };
+		FABF7FDA2A52D0B300ADDF21 /* SettingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingCell.xib; sourceTree = "<group>"; };
 		FAF2F6922A337DAB0072D2DD /* RequestSubmittedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSubmittedVC.swift; sourceTree = "<group>"; };
 		FAF2F6962A337F2C0072D2DD /* SelectAmountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectAmountVC.swift; sourceTree = "<group>"; };
 		FAF2F6992A3381FD0072D2DD /* LicenceVerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenceVerificationVC.swift; sourceTree = "<group>"; };
@@ -307,6 +325,8 @@
 				B9CF07F72902E06000A20E11 /* DateExtension.swift */,
 				FA1E11262A37099B004ADB52 /* PlaceholderExtension.swift */,
 				FAF883112A4325F900CA7920 /* UIAlert.swift */,
+				FAADAF3F2A4AE89E00531165 /* ExtraRow.swift */,
+				FA2092C92A541BAE001A67C3 /* TextFields.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -345,6 +365,9 @@
 		B900EB1028C7650D006E26D3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FA2092CC2A5435B3001A67C3 /* AcoountInformation */,
+				FA2092C42A5414CF001A67C3 /* EditAccount */,
+				FABF7FD42A52D04900ADDF21 /* GenerlSetting */,
 				FA191D182A49958C00BCB7AE /* Profile */,
 				FA40CDD12A4078A500982325 /* NeedACourtDate */,
 				FA40CDBA2A40455200982325 /* CourtDateReminder */,
@@ -445,6 +468,24 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		FA2092C42A5414CF001A67C3 /* EditAccount */ = {
+			isa = PBXGroup;
+			children = (
+				FA2092C52A5414FD001A67C3 /* EditAccountVC.swift */,
+			);
+			path = EditAccount;
+			sourceTree = "<group>";
+		};
+		FA2092CC2A5435B3001A67C3 /* AcoountInformation */ = {
+			isa = PBXGroup;
+			children = (
+				FA2092CD2A5435DA001A67C3 /* AccountInfoVC.swift */,
+				FA6F6D522A5811AA00A4B146 /* AccountCell */,
+				FA6F6D542A5811DC00A4B146 /* ContactInfoCell */,
+			);
+			path = AcoountInformation;
+			sourceTree = "<group>";
+		};
 		FA28308D2A39B69A00510462 /* Court Date */ = {
 			isa = PBXGroup;
 			children = (
@@ -466,8 +507,6 @@
 			isa = PBXGroup;
 			children = (
 				FA284E482A31D56600CAC199 /* ProfileRegistrationVC.swift */,
-				FA71951F2A4459BB006FBB17 /* OverLayePopVC.swift */,
-				FA7195202A4459BB006FBB17 /* OverLayePopVC.xib */,
 				FA284E4C2A31D59700CAC199 /* ProfileRegistrationCell.swift */,
 				FA284E4D2A31D59700CAC199 /* ProfileRegistrationCell.xib */,
 			);
@@ -528,6 +567,24 @@
 			path = NewTask;
 			sourceTree = "<group>";
 		};
+		FA6F6D522A5811AA00A4B146 /* AccountCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA2092D12A5436BB001A67C3 /* AccountInfoCell.swift */,
+				FA2092D22A5436BB001A67C3 /* AccountInfoCell.xib */,
+			);
+			path = AccountCell;
+			sourceTree = "<group>";
+		};
+		FA6F6D542A5811DC00A4B146 /* ContactInfoCell */ = {
+			isa = PBXGroup;
+			children = (
+				FA2092D62A54447E001A67C3 /* ContactInfoCell.swift */,
+				FA2092D72A54447E001A67C3 /* ContactInfoCell.xib */,
+			);
+			path = ContactInfoCell;
+			sourceTree = "<group>";
+		};
 		FA784F6829E31ED000175889 /* Change Password */ = {
 			isa = PBXGroup;
 			children = (
@@ -535,6 +592,16 @@
 				FA9F4F0929E32AAA006CF61E /* AppNotificationVC.swift */,
 			);
 			path = "Change Password";
+			sourceTree = "<group>";
+		};
+		FABF7FD42A52D04900ADDF21 /* GenerlSetting */ = {
+			isa = PBXGroup;
+			children = (
+				FABF7FD52A52D08200ADDF21 /* GeneralSettingVC.swift */,
+				FABF7FD92A52D0B300ADDF21 /* SettingCell.swift */,
+				FABF7FDA2A52D0B300ADDF21 /* SettingCell.xib */,
+			);
+			path = GenerlSetting;
 			sourceTree = "<group>";
 		};
 		FAF2F6912A337D6B0072D2DD /* RequestSubmitted */ = {
@@ -622,9 +689,9 @@
 				181FF92729D599A6002D1386 /* InriaSans-BoldItalic.ttf in Resources */,
 				181FF92529D599A6002D1386 /* InriaSans-Regular.ttf in Resources */,
 				B900EB4728C7651B006E26D3 /* GoogleService-Info.plist in Resources */,
+				FABF7FDC2A52D0B300ADDF21 /* SettingCell.xib in Resources */,
 				FA191D202A4998B000BCB7AE /* FAQCell.xib in Resources */,
 				181FF92829D599A6002D1386 /* InriaSans-LightItalic.ttf in Resources */,
-				FA7195222A4459BB006FBB17 /* OverLayePopVC.xib in Resources */,
 				18CABBDA29DD8C4F00F689E1 /* Dashboard.storyboard in Resources */,
 				B900EB2928C7650D006E26D3 /* Main.storyboard in Resources */,
 				B900EB2828C7650D006E26D3 /* LaunchScreen.storyboard in Resources */,
@@ -634,8 +701,10 @@
 				181FF92929D599A6002D1386 /* OFL.txt in Resources */,
 				B900EB4528C7650D006E26D3 /* Assets.xcassets in Resources */,
 				B900EB4428C7650D006E26D3 /* Settings.bundle in Resources */,
+				FA2092D92A54447E001A67C3 /* ContactInfoCell.xib in Resources */,
 				181FF92429D599A6002D1386 /* InriaSans-Light.ttf in Resources */,
 				FA647F0C2A3C44C700920385 /* SelectYourStatesCell.xib in Resources */,
+				FA2092D42A5436BB001A67C3 /* AccountInfoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,7 +771,6 @@
 				FA40CDCF2A40658000982325 /* ReminderVC.swift in Sources */,
 				FA23A7F02A41A9B6006E291B /* FindYourVC.swift in Sources */,
 				B900EB3228C7650D006E26D3 /* Strings.swift in Sources */,
-				FA7195212A4459BB006FBB17 /* OverLayePopVC.swift in Sources */,
 				FA784F6F29E31F3900175889 /* ChangePasswordVC.swift in Sources */,
 				FA1E112D2A371916004ADB52 /* SignUpController.swift in Sources */,
 				B938AA9228CDCF61009DCB87 /* UserDefaultsExtension.swift in Sources */,
@@ -715,6 +783,7 @@
 				B900EB4228C7650D006E26D3 /* SceneDelegate.swift in Sources */,
 				B9D392A829014741005A6FE3 /* LoadingReusableView.swift in Sources */,
 				FAF883122A4325F900CA7920 /* UIAlert.swift in Sources */,
+				FA2092C62A5414FD001A67C3 /* EditAccountVC.swift in Sources */,
 				B90D15CB28CB5B990054613C /* APIService.swift in Sources */,
 				FAF2F6A52A338A300072D2DD /* IdentificationVC.swift in Sources */,
 				1882760129DC7D1200485572 /* SignupViewModel.swift in Sources */,
@@ -723,15 +792,20 @@
 				B9D8798528C79B7F00B4B778 /* PageControl.swift in Sources */,
 				FA28308F2A39B6B600510462 /* CourtDateVC.swift in Sources */,
 				FAF2F6A82A338AA80072D2DD /* PersonalinformationVC.swift in Sources */,
+				FA2092CA2A541BAE001A67C3 /* TextFields.swift in Sources */,
 				FAF2F6972A337F2C0072D2DD /* SelectAmountVC.swift in Sources */,
 				FA284E442A31D2EB00CAC199 /* PasswordChangeVC.swift in Sources */,
 				B9B5F5E22913CA2500E38052 /* Data+Helpers.swift in Sources */,
+				FA2092D32A5436BB001A67C3 /* AccountInfoCell.swift in Sources */,
+				FA2092D82A54447E001A67C3 /* ContactInfoCell.swift in Sources */,
 				FA40CDC72A40491800982325 /* CourtReminderVC.swift in Sources */,
 				B900EB2D28C7650D006E26D3 /* UIViewControllerExtention.swift in Sources */,
 				FA647F102A3C5E7D00920385 /* CourtDataVC.swift in Sources */,
+				FABF7FD62A52D08200ADDF21 /* GeneralSettingVC.swift in Sources */,
 				B900EB3128C7650D006E26D3 /* ErrorViewModel.swift in Sources */,
 				B900EB3028C7650D006E26D3 /* StringExtention.swift in Sources */,
 				B900EB2C28C7650D006E26D3 /* Constants.swift in Sources */,
+				FA2092CE2A5435DA001A67C3 /* AccountInfoVC.swift in Sources */,
 				B900EB2F28C7650D006E26D3 /* UIButtonExtention.swift in Sources */,
 				B900EB3C28C7650D006E26D3 /* LoginViewModel.swift in Sources */,
 				B90D15CD28CB5CFC0054613C /* Endpoints.swift in Sources */,
@@ -741,10 +815,12 @@
 				B900EB3328C7650D006E26D3 /* RedirectionHelper.swift in Sources */,
 				FA191D1F2A4998B000BCB7AE /* FAQCell.swift in Sources */,
 				B900EB4928C76DDF006E26D3 /* OnboardingVC.swift in Sources */,
+				FABF7FDB2A52D0B300ADDF21 /* SettingCell.swift in Sources */,
 				FAF2F6B22A3395BC0072D2DD /* TicketInformationVC.swift in Sources */,
 				B92680DA28C8C5F1003BF3ED /* UITapGestureRecognizer.swift in Sources */,
 				FA9F4F0A29E32AAA006CF61E /* AppNotificationVC.swift in Sources */,
 				FAF2F6AF2A3391600072D2DD /* PasswordResetVC.swift in Sources */,
+				FAADAF402A4AE89E00531165 /* ExtraRow.swift in Sources */,
 				B95B7F2A28C7F2B2004FB755 /* UITextfieldExtension.swift in Sources */,
 				B900EB4128C7650D006E26D3 /* AppDelegate.swift in Sources */,
 				FAF2F6932A337DAB0072D2DD /* RequestSubmittedVC.swift in Sources */,
