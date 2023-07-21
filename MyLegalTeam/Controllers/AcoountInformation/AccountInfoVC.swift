@@ -21,7 +21,8 @@ class AccountInfoVC: UIViewController {
         tableview.register(UINib(nibName: "ContactInfoCell", bundle: nil),
                            forCellReuseIdentifier: "ContactInfoCell")
         navigationController?.hidesBarsOnSwipe = true
-        tabBarController?.hidesBottomBarWhenPushed = true
+//        tabBarController?.hidesBottomBarWhenPushed = true
+   
     }
     
     @IBAction func didClickBackBtn(_ sender: Any) {
@@ -45,10 +46,8 @@ extension AccountInfoVC: UITableViewDelegate,UITableViewDataSource {
                 cell.selectionStyle = .none
                 return cell
             }
-
-            return UITableViewCell()
+        return UITableViewCell.init()
         }
-    
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 130
     }

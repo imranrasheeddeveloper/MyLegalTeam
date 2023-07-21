@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="119" id="KGk-i7-Jjw" customClass="PendingRequestCell" customModule="MyLegalTeam" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="395" height="119"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="395" height="119"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="75a-9X-DT7">
+                        <rect key="frame" x="0.0" y="0.0" width="395" height="119"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Request Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcV-oc-a9y">
+                                <rect key="frame" x="10" y="10" width="100" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="request description where defendant explain about his case details for lawyer to let him know before accepting request." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jR-JA-RFC">
+                                <rect key="frame" x="13" y="41" width="374" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6jR-JA-RFC" firstAttribute="leading" secondItem="75a-9X-DT7" secondAttribute="leading" constant="13" id="8e4-BA-52s"/>
+                            <constraint firstItem="zcV-oc-a9y" firstAttribute="top" secondItem="75a-9X-DT7" secondAttribute="top" constant="10" id="Q8S-4O-vzs"/>
+                            <constraint firstItem="6jR-JA-RFC" firstAttribute="top" secondItem="zcV-oc-a9y" secondAttribute="bottom" constant="10" id="UfV-aK-U2P"/>
+                            <constraint firstItem="zcV-oc-a9y" firstAttribute="leading" secondItem="75a-9X-DT7" secondAttribute="leading" constant="10" id="VKC-7n-sSP"/>
+                            <constraint firstItem="6jR-JA-RFC" firstAttribute="trailing" secondItem="75a-9X-DT7" secondAttribute="trailingMargin" id="sFg-AB-1z5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="75a-9X-DT7" secondAttribute="trailing" id="74C-by-tbg"/>
+                    <constraint firstAttribute="bottom" secondItem="75a-9X-DT7" secondAttribute="bottom" id="Bb3-mP-hEg"/>
+                    <constraint firstItem="75a-9X-DT7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="O6c-ru-ByR"/>
+                    <constraint firstItem="75a-9X-DT7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="cWU-Nh-6Nx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="requestTitlelbl" destination="zcV-oc-a9y" id="ryu-dA-MXe"/>
+                <outlet property="subDescription" destination="6jR-JA-RFC" id="H0T-sd-KBL"/>
+            </connections>
+            <point key="canvasLocation" x="193.47826086956522" y="82.03125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
