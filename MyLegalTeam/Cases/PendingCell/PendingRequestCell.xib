@@ -53,6 +53,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="bgView" destination="75a-9X-DT7" id="3HL-Vo-QLH"/>
                 <outlet property="requestTitlelbl" destination="zcV-oc-a9y" id="ryu-dA-MXe"/>
                 <outlet property="subDescription" destination="6jR-JA-RFC" id="H0T-sd-KBL"/>
             </connections>

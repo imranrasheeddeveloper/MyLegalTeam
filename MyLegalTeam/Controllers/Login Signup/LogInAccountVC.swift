@@ -34,7 +34,8 @@ class LogInAccountVC: UIViewController {
             
            }
     @IBAction func didClicklogInBtn(_ sender: UIButton) {
-        RedirectionHelper.redirectToSignUpController(self)
+        RedirectionHelper.redirectToHome()
+
     }
     
     @IBAction func didClickSegments(_ sender: Any) {

@@ -66,7 +66,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeImg" translatesAutoresizingMaskIntoConstraints="NO" id="UV3-f9-228">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeImg" translatesAutoresizingMaskIntoConstraints="NO" id="UV3-f9-228">
                                 <rect key="frame" x="20" y="170" width="360" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="9hs-tI-pa2"/>
@@ -221,6 +221,7 @@
                         <outlet property="collectionView" destination="xee-JC-0Uf" id="uAe-Cw-9eX"/>
                         <outlet property="collectionViewB" destination="Zbl-DR-XhW" id="ep6-Yx-erg"/>
                         <outlet property="exploreBtn" destination="988-yC-OZh" id="2kr-TU-FRh"/>
+                        <outlet property="homeImg" destination="UV3-f9-228" id="KTx-cj-xcS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

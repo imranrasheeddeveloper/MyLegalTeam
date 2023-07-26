@@ -31,7 +31,13 @@ struct RedirectionHelper {
             let storyBoard = UIStoryboard(name: "Main", bundle: nil)
             let loginVC = storyBoard.instantiateViewController(withIdentifier: "CourtReminderVC") as! CourtReminderVC
             vc.navigationController?.pushViewController(loginVC, animated: true)
-    }
+        }
+            static func redirectOTPScreenVC(_ vc : UIViewController){
+                let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+                let forgotPasswordVC = storyBoard.instantiateViewController(withIdentifier: "OTPScreenVC") as! OTPScreenVC
+                vc.navigationController?.pushViewController(forgotPasswordVC, animated: true)
+            }
+    
     
     static func redirectToSignup(_ vc : UIViewController){
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
@@ -77,14 +83,15 @@ struct RedirectionHelper {
         let forgotPasswordVC = storyBoard.instantiateViewController(withIdentifier: "LoginVC") as! LoginVC
         vc.navigationController?.pushViewController(forgotPasswordVC, animated: true)
     }
+        
+    
 
     static func backStack(_ viewController : UIViewController){
         isOnTabBar = false
         DispatchQueue.main.async {
             viewController.navigationController?.popViewController(animated: true)
         }
-        
-        
+       
     }
 }
 public extension UIApplication {

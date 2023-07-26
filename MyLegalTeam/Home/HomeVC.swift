@@ -5,13 +5,15 @@
 //  Created by MacBook on 14/07/2023.
 //
 
+import SideMenu
 import UIKit
 
 class HomeVC: UIViewController {
-
+    
     @IBOutlet weak var exploreBtn: UIButton!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var collectionViewB: UICollectionView!
+    @IBOutlet weak var homeImg: UIImageView!
     var data = ["chatImg","AlleyWave","chatImg","PeterRoy","PeterRoy"]
    var name = ["Jhony David","Alley Wave","Jhony David","PeterRoy","ElinaWilson"]
    var courtData = ["missedCourt","iNeedA","needABail","needCourt","courtDate","iNeedA"]
@@ -20,15 +22,20 @@ class HomeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
+        
+        homeImg.layer.cornerRadius = 13
         
         collectionView.register(UINib(nibName: "HomeCollectionCell", bundle: nil),
                                 forCellWithReuseIdentifier: "HomeCollectionCell")
         collectionViewB.register(UINib(nibName: "PicksCell", bundle: nil),
                                 forCellWithReuseIdentifier: "PicksCell")
-
         exploreBtn.configure(13)
     }
 
+    @IBAction func sideMenudidSelect() {
+       
+    }
 }
 extension HomeVC : UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
 
@@ -63,8 +70,6 @@ extension HomeVC : UICollectionViewDelegate, UICollectionViewDataSource,UICollec
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize
         {
         if collectionView == self.collectionView {
-        
-        
         return CGSize(width: 120.0, height: 120.0)
         } else  {
             collectionView == self.collectionViewB
@@ -74,4 +79,5 @@ extension HomeVC : UICollectionViewDelegate, UICollectionViewDataSource,UICollec
             
         }
     }
+
 

@@ -139,6 +139,7 @@
                 <outlet property="rejectBtn" destination="67v-7J-Jcn" id="FvU-Ny-WWP"/>
                 <outlet property="requestDescription" destination="ExQ-9o-F8a" id="oB2-bC-gTc"/>
                 <outlet property="requestTitle" destination="zQ9-2f-XfM" id="Jd7-KN-RaC"/>
+                <outlet property="titlebgView" destination="ZET-l7-sqo" id="wBJ-bG-g6a"/>
             </connections>
             <point key="canvasLocation" x="102.89855072463769" y="56.919642857142854"/>
         </tableViewCell>

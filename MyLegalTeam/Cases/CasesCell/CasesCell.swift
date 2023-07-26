@@ -18,6 +18,7 @@ class CasesCell: UITableViewCell {
     @IBOutlet weak var hrlabel: UILabel!
     @IBOutlet weak var requestDescription: UILabel!
     @IBOutlet weak var requestTitle: UILabel!
+    @IBOutlet weak var titlebgView: UIView!
     override func awakeFromNib() {
         super.awakeFromNib()
         uiView()

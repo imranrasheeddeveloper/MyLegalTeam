@@ -23,6 +23,7 @@ target 'MyLegalTeam' do
  # pod 'lottie-ios'
   pod 'DialCountries'
   pod 'OTPfieldView'
+  pod 'SideMenu'
 
 
 end

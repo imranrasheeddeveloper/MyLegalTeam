@@ -44,4 +44,9 @@ class FindYourVC: UIViewController {
     @IBAction func didClickbackBtn(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
     }
+    
+    @IBAction func didFindBtn(_ sender: UIButton) {
+        RedirectionHelper.redirectToOTPScreenVC(self)
+        
+    }
 }

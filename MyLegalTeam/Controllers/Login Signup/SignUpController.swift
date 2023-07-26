@@ -11,6 +11,8 @@ class SignUpController: UIViewController {
 
     
     @IBOutlet weak var scrollView: UIScrollView!
+    @IBOutlet weak var termlabel: UILabel!
+    @IBOutlet weak var  mySwitch: UISwitch!
     @IBOutlet weak var backBtn: UIButton!
     @IBOutlet weak var firstNameTF: UITextField!
     @IBOutlet weak var lastNameTF: UITextField!
@@ -23,6 +25,7 @@ class SignUpController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         uiView()
+        
         loginlbl.isUserInteractionEnabled =  true
         let tap = UITapGestureRecognizer(target: self, action: #selector(login))
         loginlbl.addGestureRecognizer(tap)
@@ -70,4 +73,18 @@ class SignUpController: UIViewController {
         scrollView.contentInset = contentInset
     }
     
+    @IBAction func mySwitchtapped(_ sender: AnyObject) {
+        updateMySwitch()
+    }
+    
+    
+    func updateMySwitch()   {
+        if mySwitch.isOn
+        {
+            termlabel.text = "Agree to our Terms and Conditions"
+            termlabel.textColor = .systemPink
+        } else{
+            termlabel.text = "By sign-up, you agree to our Terms and Conditions"
+        }
+    }
 }

@@ -11,6 +11,7 @@ class PendingRequestCell: UITableViewCell {
 
     @IBOutlet weak var requestTitlelbl: UILabel!
     @IBOutlet weak var subDescription: UILabel!
+    @IBOutlet weak var bgView : UIView!
     override func awakeFromNib() {
         super.awakeFromNib()
        
